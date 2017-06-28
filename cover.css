@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'OPTICounsilMedium';
+    src:url('fonts/OPTI/OPTICounsilMedium.ttf.woff') format('woff'), url('fonts/OPTI/OPTICounsilMedium.ttf.svg#OPTICounsilMedium') format('svg'),
+        url('fonts/OPTI/OPTICounsilMedium.ttf.eot'),
+        url('fonts/OPTI/OPTICounsilMedium.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
 /*
  * Globals
  */
@@ -13,9 +22,9 @@ a:hover {
 .btn-default,
 .btn-default:hover,
 .btn-default:focus {
-  color: #333;
+  color: white;
   text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: #fff;
+  background-color: black;
   border: 1px solid #fff;
 }
 
@@ -27,10 +36,11 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
+  background-color: black;
 }
 body {
   color: #fff;
+  font-family: OPTICounsilMedium;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
@@ -78,6 +88,7 @@ body {
   padding-left: 0;
   font-size: 16px;
   font-weight: bold;
+  font-family: OPTICounsilMedium;
   color: #fff; /* IE8 proofing */
   color: rgba(255,255,255,.75);
   border-bottom: 2px solid transparent;
@@ -114,7 +125,8 @@ body {
 }
 .cover .btn-lg {
   padding: 10px 20px;
-  font-weight: bold;
+  font-size: 30px;
+  font-family: OPTICounsilMedium;
 }
 
 
