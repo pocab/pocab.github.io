@@ -42,6 +42,11 @@ a:visited{
     color:red;
 }
 
+img {
+    max-width:100%;
+    height: auto;
+}
+
 html,
 body {
   height: 100%;
