@@ -33,6 +33,15 @@ a:hover {
  * Base structure
  */
 
+
+a:link{
+    color:red;
+}
+
+a:visited{
+    color:red;
+}
+
 html,
 body {
   height: 100%;
